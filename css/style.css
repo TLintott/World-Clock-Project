@@ -33,6 +33,10 @@ h1{
 
 }
 
+h2{
+    margin-bottom: 0;
+}
+
 footer{
     text-align: center;
     padding-top: 10px;
@@ -77,6 +81,7 @@ strong{
     line-height: 48px;
 }
 .back{
-    font-family: 'Sansita', sans-serif; ;
-    color: #fe8761;
+    font-family: 'Noto Sans', sans-serif; 
+    font-weight: lighter;
+    color: #000;
 }
