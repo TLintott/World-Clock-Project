@@ -12,6 +12,8 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>World Clock 🕐</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -25,17 +27,25 @@
         <option value="">Sydney</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="san-francisco">
         <div>
           <h2>San Francisco 🌉</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
+      </div>
+
+      <div class="city" id="tokyo">
+        <div>
+          <h2>Tokyo 🏯</h2>
           <div class="date">23rd August 2023</div>
         </div>
         <div class="time">1:11:20 <small> PM</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="port-louis">
         <div>
-          <h2>Tokyo 🏯</h2>
+          <h2>Port Louis 🏝️</h2>
           <div class="date">23rd August 2023</div>
         </div>
         <div class="time">1:11:20 <small> PM</small></div>
